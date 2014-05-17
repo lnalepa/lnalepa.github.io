@@ -1,0 +1,121 @@
+body{
+    font-size:28px;
+}
+
+h2{
+    font-size: 80px;
+}
+
+.slide{
+    padding:70px 0;
+}
+
+#topNav{
+    font-size:26px;
+}
+
+#lesia{
+    font-size:100px;
+}
+
+#about{
+    height:880px;
+    font-size:22px;
+}
+
+#about #aboutDescription{
+    width:100%;
+}
+
+#about #mainDescription{
+    font-size:28px;
+}
+
+#about .descriptionBlock{
+    margin:0 40px;
+    width:230px;
+}
+
+.subDescription{
+    font-size:22px;
+    padding-bottom:30px;
+}
+
+#subDescription{
+    font-size:22px;
+    height:250px;
+}
+
+#portfolio{
+    height:760px;
+    font-size:22px;
+}
+
+#photography{
+    height:1500px;    
+}
+
+#photos div{
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+/*#photos .square{
+    width:400px;
+    height:400px;
+    margin:0 20px 20px 20px;
+}
+
+.rectangle{
+    width:840px;
+    height:400px;
+    margin:0 20px 20px 20px;
+}*/
+
+
+#contact{
+    height:350px;
+}
+
+#contact #logos{
+    height:40px;
+}
+
+#contact .logos{
+    margin-bottom:70px;
+}
+
+
+#contact #largeLogos i{
+    padding:0 20px 0 20px;
+}
+
+#contact #copyright{
+    font-size:22px;
+}
+
+#topNav{
+    display:none;
+}
+
+#callToAction{
+    font-size:50px;
+}
+
+#companies li img{
+    width:80%;
+    margin: 0% 5%;
+}
+
+.position{
+    font-size:20px;
+}
+
+
+
