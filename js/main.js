@@ -1,7 +1,31 @@
 $( document ).ready(function() {
-
-  if (window.innerWidth > 980)
+  var windowOrientation = typeof window.orientation;
+  if (windowOrientation == 'undefined'){
     var s = skrollr.init({forceHeight: false});// Init Skrollr
+  }
+  else{
+    // window.viewportUnitsBuggyfill.init()
+    $("#slide-1").css("height", window.innerHeight);
+  }
+
+  function doOnOrientationChange()
+  {
+    switch(window.orientation) 
+    {  
+      case -90:
+      case 90:
+        $("#slide-1").css("height", window.innerHeight);
+        break; 
+      default:
+        $("#slide-1").css("height", window.innerHeight);
+        break; 
+    }
+  }
+
+  window.addEventListener('orientationchange', doOnOrientationChange);
+
+  // Initial execution if needed
+  doOnOrientationChange();
 
   $('.bxslider').bxSlider({
     nextSelector: '#slider-next',
