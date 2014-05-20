@@ -69,6 +69,7 @@ ul, li{
     font-size:30px;
     padding:12px 0px 12px 30px;
     float:left;
+    opacity:0;
 }
 
 .slide{

@@ -8,24 +8,7 @@ $( document ).ready(function() {
     $("#slide-1").css("height", window.innerHeight);
   }
 
-  function doOnOrientationChange()
-  {
-    switch(window.orientation) 
-    {  
-      case -90:
-      case 90:
-        $("#slide-1").css("height", window.innerHeight);
-        break; 
-      default:
-        $("#slide-1").css("height", window.innerHeight);
-        break; 
-    }
-  }
-
   window.addEventListener('orientationchange', doOnOrientationChange);
-
-  // Initial execution if needed
-  doOnOrientationChange();
 
   $('.bxslider').bxSlider({
     nextSelector: '#slider-next',
@@ -37,6 +20,18 @@ $( document ).ready(function() {
   animateScrolling()
 
 });
+
+function doOnOrientationChange(){
+  switch(window.orientation) 
+  {  
+    case -90:
+    case 90:
+    default:
+      $("#slide-1").css("height", window.innerHeight);
+      alert('2')
+      break; 
+  }
+}
 
 function animateScrolling(){
   $('a[href*=#]').on('click', function(e){
