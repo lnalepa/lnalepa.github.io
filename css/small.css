@@ -10,7 +10,7 @@ h2{
     padding:70px 0;
 }
 
-#topNav{
+#header{
     font-size:26px;
 }
 
@@ -85,7 +85,7 @@ h2{
     font-size:22px;
 }
 
-#topNav{
+#header{
     display:none;
 }
 

@@ -1,4 +1,6 @@
+
 $( document ).ready(function() {
+
   var windowOrientation = typeof window.orientation;
   if (windowOrientation == 'undefined'){
     var s = skrollr.init({forceHeight: false});// Init Skrollr
@@ -17,7 +19,26 @@ $( document ).ready(function() {
     prevText: '<div class="floatLeft button" ><img src="img/backIcon.png" /></div>'
   });
 
-  animateScrolling()
+
+  $("#header").headroom(
+  {
+        tolerance: {
+          down : 10,
+          up : 10
+        },
+        offset : (window.innerHeight),
+        classes: {
+          initial: "header-slide",
+          pinned: "header-slide-reset",
+          unpinned: "header-slide-up"
+    }
+    }
+
+
+  );
+
+
+  animateScrolling();
 
 });
 

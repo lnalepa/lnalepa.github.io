@@ -36,7 +36,7 @@ ul, li{
     overflow:hidden;
 }
 
-#topNav{
+#header{
     position:fixed;
     top: 0px;
     background-color:#59bab7;
@@ -47,24 +47,24 @@ ul, li{
 
 }
 
-#topNav ul{
+#header ul{
     float: right;
     padding-right: 40px;
 }
 
-#topNav li{
+#header li{
     padding-left:20px;
 }
 
-#topNav a{
+#header a{
     color:#ffffff;
 }
 
-#topNav a:hover{
+#header a:hover{
     color:#C0DFE4;
 }
 
-#topNav #smallName{
+#header #smallName{
     cursor:pointer;
     font-size:30px;
     padding:12px 0px 12px 30px;
@@ -600,5 +600,29 @@ ul, li{
     color:#BCC5CA; 
     opacity:0.75;
     font-size:12px;
+}
+
+/* headroom css*/
+.headroom {
+    -webkit-transition: transform 200ms linear;
+}
+
+.header-slide-reset {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.header-slide {
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.header-slide-up {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
 }
 
