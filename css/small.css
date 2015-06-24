@@ -1,128 +1,114 @@
-body{
-    font-size:28px;
+body {
+	font-size:28px;
 }
 
-h2{
-    font-size: 80px;
+h2 {
+	font-size: 80px;
 }
 
-.slide{
-    padding:70px 0;
+.slide {
+	padding:70px 0;
 }
 
-#header{
-    font-size:26px;
+#header {
+	font-size:26px;
 }
 
-#lesia{
-    font-size:100px;
+#lesia {
+	font-size:100px;
 }
 
-#about{
-    height:910px;
-    font-size:22px;
+#about {
+	font-size:22px;
 }
 
-#about #aboutDescription{
-    width:100%;
+#about #aboutDescription {
+	width:100%;
 }
 
-#about #mainDescription{
-    font-size:28px;
+#about #mainDescription {
+	font-size:28px;
 }
 
-#about .descriptionBlock{
-    margin:0 40px;
-    width:230px;
+#about .descriptionBlock {
+	margin:0 40px;
+	width:230px;
 }
 
-.subDescription{
-    font-size:22px;
-    padding-bottom:30px;
+.subDescription {
+	font-size:22px;
+	padding-bottom:30px;
 }
 
-#subDescription{
-    font-size:22px;
-    height:250px;
+#subDescription {
+	font-size:22px;
 }
 
-#portfolio{
-    height:830px;
-    font-size:22px;
+#portfolio {
+	font-size:22px;
 }
 
-#photography{
-    height:1550px;    
+#photography .photo  {
+	filter: none;
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	filter: grayscale(0);
 }
 
-#photography .photo {
-    filter: none;
-    -webkit-filter: grayscale(0);
-    -moz-filter: grayscale(0);
-    -ms-filter: grayscale(0);
-    -o-filter: grayscale(0);
-    filter: grayscale(0);
+#contact #logos {
+	height:40px;
 }
 
-#contact{
-    height:350px;
+#contact .logos {
+	margin-bottom:70px;
 }
 
-#contact #logos{
-    height:40px;
+#contact #largeLogos i {
+	padding:0 20px 0 20px;
 }
 
-#contact .logos{
-    margin-bottom:70px;
+#contact #copyright {
+	font-size:22px;
 }
 
-
-#contact #largeLogos i{
-    padding:0 20px 0 20px;
+#header {
+	display:none;
 }
 
-#contact #copyright{
-    font-size:22px;
+#callToAction {
+	font-size:50px;
 }
 
-#header{
-    display:none;
+#companies li img {
+		width:80%;
+	margin: 0% 5%;
 }
 
-#callToAction{
-    font-size:50px;
-}
-
-#companies li img{
-    width:80%;
-    margin: 0% 5%;
-}
-
-.position{
-    font-size:20px;
+.position {
+	font-size:20px;
 }
 
 
-#portfolio #mainProjectContainer{
-    width:90%;
+#portfolio #mainProjectContainer {
+	width:90%;
 }
 
-#portfolio .container{
-    overflow:hidden;
+#portfolio .container {
+	overflow:hidden;
 }
 
-.bx-pager-link, .bx-wrapper .bx-pager.bx-default-pager a{
-    height:25px;
-    width:25px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    border-radius: 15px;
-    margin: 0 10px;
-    margin-top:20px;
+.bx-pager-link, .bx-wrapper .bx-pager.bx-default-pager a {
+	height:25px;
+	width:25px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	margin: 0 10px;
+	margin-top:20px;
 }
 
-.descriptionBlock{
-    font-size:24px;
+.descriptionBlock {
+	font-size:24px;
 }
-
-
